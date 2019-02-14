@@ -17,16 +17,22 @@ You can then access NSS here: http://localhost:8080/
  ./mvnw spring-boot:run
  
 Working with Petclinic in your IDE
+
 Prerequisites
 The following items should be installed in your system:
 
 Java 8 or newer.
 
 git command line tool (https://help.github.com/articles/set-up-git)
+
 Your prefered IDE
+
 Eclipse with the m2e plugin. Note: when m2e is available, there is an m2 icon in Help -> About dialog. If m2e is not there, just follow the install process here: http://www.eclipse.org/m2e/
+
 Spring Tools Suite (STS)
+
 Steps:
+
 On the command line
 git clone https://github.com/Mani2ibm/News_Scraper_Service.git
 Inside Eclipse or STS
