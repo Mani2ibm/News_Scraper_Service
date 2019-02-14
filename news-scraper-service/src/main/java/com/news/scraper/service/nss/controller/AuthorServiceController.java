@@ -21,10 +21,15 @@ public class AuthorServiceController {
 	@Autowired
 	private AuthorService authorservice;
 	
+	/*Search available authors
+	Returns the all the available authors*/
 	@GetMapping("/nss/search/authors/")
 	public List<Author> getAuthors(){
 		return authorservice.getAuthors();	
 	}
+	
+/*	Search author name based on date
+	Returns the all author name based on date*/
 	
 	@GetMapping("/nss/search/authors/{date}")
 	public List<Author> getAuthorbyDate(@PathVariable Date date){
